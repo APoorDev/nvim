@@ -2,7 +2,7 @@ return {
     "David-Kunz/gen.nvim",
     opts = {
         model = "mistral:instruct", -- The default model to use.
-        host = "192.168.8.138", -- The host running the Ollama service.
+        host = "localhost", -- The host running the Ollama service.
         port = "11434", -- The port on which the Ollama service is listening.
         quit_map = "q", -- set keymap for close the response window
         retry_map = "<c-r>", -- set keymap to re-send the current prompt
